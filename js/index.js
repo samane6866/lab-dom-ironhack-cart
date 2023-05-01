@@ -59,6 +59,7 @@ function createProduct() {
   let productName = document.querySelector(
     ".create-product input[type='text']"
   );
+
   let productPrice = document.querySelector(
     ".create-product input[type='number']"
   );
@@ -90,6 +91,7 @@ function createProduct() {
     alert('You must enter a price and a product');
   }
 }
+
 const createBtn = document.querySelector('#create');
 createBtn.addEventListener('click', function (e) {
   createProduct(e);
